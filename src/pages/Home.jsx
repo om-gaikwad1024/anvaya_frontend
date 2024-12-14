@@ -36,7 +36,7 @@ By combining the best of both worlds - ancient wisdom and modern technology - we
           <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Let's Explore</button>
         </div>
         <img
-          src=".\src\assets\logo.png"
+          src=".\public\logo.png"
           alt="Stoic Philosophy"
           className="w-64 h-64 object-cover rounded-lg m-4"
         />
@@ -45,7 +45,7 @@ By combining the best of both worlds - ancient wisdom and modern technology - we
       {/* Section 2 */}
       <section className="flex flex-wrap items-center justify-center mb-8">
         <img
-          src=".\src\assets\aiplant.png"
+          src=".\public\aiplant.png"
           alt="Mindfulness"
           className="w-64 h-64 object-cover rounded-lg m-4"
         />
@@ -68,7 +68,7 @@ By combining the best of both worlds - ancient wisdom and modern technology - we
           <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Tesst me!</button>
         </div>
         <img
-          src=".\src\assets\quiz.jpg"
+          src=".\public\quiz.jpg"
           alt="Community"
           className="w-64 h-64 object-cover rounded-lg m-4"
         />

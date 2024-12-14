@@ -1,31 +1,31 @@
-import {
+import { 
   createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+  createRoutesFromElements, 
+  Route, 
+  RouterProvider 
+} from 'react-router-dom';
 
-import RootLayout from "../RootLayout";
-import "./App.css";
+import RootLayout from './components/RootLayout.jsx';
+import './App.css';
 
 // Pages
-import Home from "./pages/Home";
-import PlantDetect from "./pages/PlantDetect";
-import PlantInfo from "./pages/PlantInfo";
-import ContactUs from "./pages/ContactUs";
-import AboutUs from "./pages/AboutUs";
-import Explore from "./pages/Explore";
-import Quiz from "./pages/Quiz";
-import AddPlant from "./components/AddPlant";
+import Home from './pages/Home.jsx';
+import PlantDetect from './pages/PlantDetect.jsx';
+import PlantInfo from './pages/PlantInfo.jsx';
+import ContactUs from './pages/ContactUs.jsx';
+import AboutUs from './pages/AboutUs.jsx';
+import Explore from './pages/Explore.jsx';
+import Quiz from './pages/Quiz.jsx';
+import AddPlant from './components/AddPlant.jsx';
 
 // Components
-import Login from "./components/Login";
-import Register from "./components/Register";
-import PrivateRoute from "./components/PrivateRoute";
-import PlantInfo3D from "./components/PlantInfo3D";
+import Login from './components/Login.jsx';
+import Register from './components/Register.jsx';
+import PrivateRoute from './components/PrivateRoute.jsx';
+import PlantInfo3D from './components/PlantInfo3D.jsx';
 
 // Context
-import { AuthProvider } from "./context/AuthContext";
+import { AuthProvider } from './context/AuthContext.jsx';
 
 function App() {
   const router = createBrowserRouter(
@@ -53,10 +53,13 @@ function App() {
         <Route path="/plantinfo" element={<PlantInfo />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/quiz" element={<Quiz />} />
+        
         <Route path="/plantinfo3d" element={<PlantInfo3D />} />
         <Route path="/addplant" element={<AddPlant />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/explore" element={<Explore />} />
+
+
       </Route>
     )
   );
